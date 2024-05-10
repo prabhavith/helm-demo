@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  type: NodePort
+  selector:
+    app: webtest
+  ports:
+    - protocol: TCP
+      port: 82
+      targetPort: 80
+      nodePort: 31235
+
