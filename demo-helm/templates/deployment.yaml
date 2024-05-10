@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alpine
+  labels:
+    app: myweb
+spec:
+  replicas: {{ .Values.replicas }}
+  selector:
+    matchLabels:
+      app: myweb
+  template:
+    metadata:
+      labels:
+        app: myweb
+    spec:
+      containers:
+      - name: alpine
+        image: primepossum/alpine:latest
+        ports:
+        - containerPort: 3000
+        env:
+         - name: OS_env
+           value: centos_val
+
