@@ -3,9 +3,19 @@ entries:
   demo1-name:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-05-10T07:04:36.248924575Z"
+    created: "2024-05-11T02:46:42.161839471Z"
     description: A Helm chart for Kubernetes
-    digest: a50f3a10943109d5713cd49080a4e60208a705184c5fe9a7aecf1cfb09ba6329
+    digest: 02f4b540d639505d30e7f034d09adbdc0993d5401193d84fb7428ec9930871c9
+    name: demo1-name
+    type: application
+    urls:
+    - demo1-name-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-05-11T02:46:42.161632807Z"
+    description: A Helm chart for Kubernetes
+    digest: c2ca3ab8a2ef6586d94b2c65cf4908c9b5d477fb0cb6f0dc0f9641954f2e29a9
     name: demo1-name
     type: application
     urls:
@@ -14,7 +24,7 @@ entries:
   test1-name:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2024-05-10T07:04:36.249142728Z"
+    created: "2024-05-11T02:46:42.162108119Z"
     description: A Helm chart for Kubernetes
     digest: 58000b592b535dc1ec7122ae1733aea6655042bee57538d406f8c3f618cc33c2
     name: test1-name
@@ -22,4 +32,4 @@ entries:
     urls:
     - test1-name-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-10T07:04:36.24856408Z"
+generated: "2024-05-11T02:46:42.161295899Z"
